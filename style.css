@@ -1,0 +1,42 @@
+body {
+  background: hsl(337, 93%, 84%);
+  margin: 25px auto;
+  padding: 200px;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.button {
+  background-color: rgb(253, 176, 206);
+  border-radius: 15px / 50px;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  box-shadow: 10px 10px;
+  font-size: 200%;
+}
+
+.button:hover {
+  background-image: radial-gradient(
+    circle,
+    rgb(255, 195, 218),
+    rgb(255, 188, 214),
+    rgb(253, 176, 206),
+    rgb(255, 155, 193),
+    rgb(255, 135, 181)
+  );
+}
+
+.heartBtn {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+.big {
+  font-size: 400px;
+}
