@@ -1,8 +1,7 @@
 body {
   background: hsl(337, 93%, 84%);
-  margin: 25px auto;
-  padding: 200px;
   font-size: large;
+  margin-top: 20%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: black;
   text-align: center;
@@ -11,9 +10,9 @@ body {
 .button {
   background-color: rgb(253, 176, 206);
   border-radius: 15px / 50px;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
+  padding: 5%;
+  width: 30%;
+  height: 40%;
   box-shadow: 10px 10px;
   font-size: 200%;
 }
@@ -32,11 +31,9 @@ body {
 .heartBtn {
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
-  padding: 20px;
-  width: 200px;
-  height: 150px;
+  margin: auto;
 }
 
-.big {
-  font-size: 400px;
+p {
+  font-size: 250%;
 }

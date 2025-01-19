@@ -3,7 +3,7 @@
 //Do not show heart Button
 document.getElementById("heartBtn").style.display = "none";
 
-//When Clickme button is click, change display settings to show makeheart button
+//When Clickme button is clicked, change display settings and show makeheart button
 document
   .getElementById("makeheartBtn")
   .addEventListener("click", makeheartBtnClicked);
@@ -17,7 +17,7 @@ function makeheartBtnClicked() {
 document.getElementById("heartBtn").addEventListener("click", heartBtnClicked);
 
 function heartBtnClicked() {
-  document.getElementById("hearts").outerHTML += `          <p>Love you😘😘😘😘😘😘😘</p>
+  document.getElementById("hearts").outerHTML += `          <p>Love you😘😘😘😘😘</p>
   `;
   document.getElementById("heartBtn").style.display = "none";
 }
